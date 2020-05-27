@@ -8,7 +8,7 @@ import Axios from 'axios';
 function App() {
   const APP_KEY="631fe25626a9ef3c36b52dc6bae915fe";
   const [weather , setWeather] = useState([]);
-  const [search , setSearch] = useState("Sangli");
+  const [search , setSearch] = useState("Satara");
 
   const getWeather =async () =>
   {
